@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: black;
+    width: 1500px;
+    height: 2000px;
+}
+.menu{
+    width: 1500px;
+    text-align: center;
+    background: yellow;
+    opacity: 0.8;
+     position: fixed;
+    z-index: 1;
+}
+.big-box{
+    top:200px;
+    left: 350px;
+    width: 480px;
+    height: 450px;
+    background: blue;
+    position: absolute;
+}
+.small-box{
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 280px;
+    left: 420px;
+    background: red;
+}
+.small-box p{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    margin: 6px 10px;
+}
+.small-box a{
+    display: block; 
+    margin: 50px 90px;
+    color:darkblue;
+}
